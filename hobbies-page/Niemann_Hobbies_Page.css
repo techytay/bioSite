@@ -4,12 +4,13 @@ header {
     padding: 20px;
     text-align: center;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  background-image: url('images/Design2Crop.png');
+    background-image: url('images/Design2Crop.png');
 }
 h1 {
     font-family: verdana, sans-serif;
     font-size: 56px;
     font-weight: bold;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 #navbar {
     font-family: Georgia, serif;
@@ -42,6 +43,16 @@ h2 {
     color: black;
     border: 1px solid #2EC8E8;
     padding: 10px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.image-gallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 50px;
+}
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
 }
 h3 {
     font-family: verdana, sans-serif;
@@ -52,18 +63,29 @@ h3 {
     color: black;
     border: 1px solid #2EC8E8;
     padding: 10px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 h4 {
     font-family: verdana, sans-serif;
     text-align: left;
     font-size: 27px;
     font-weight: 400;
-    background-color: #2E67E8;
-    color: black;
+    color: #2E67E8;
     border: 1px solid #2EC8E8;
     padding: 10px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 p {
     font-family: Georgia, serif;
     font-size: 20px;
+}
+footer {
+    background-color: #40ACFF;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    padding-right: 10px;
+    left: 0;
 }

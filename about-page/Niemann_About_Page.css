@@ -4,12 +4,13 @@ header {
     padding: 20px;
     text-align: center;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  background-image: url('images/Design2Crop.png');
+    background-image: url('images/Design2Crop.png');
 }
 h1 {
     font-family: verdana, sans-serif;
     font-size: 56px;
     font-weight: bold;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 #navbar {
     font-family: Georgia, serif;
@@ -42,37 +43,73 @@ h2 {
     color: black;
     border: 1px solid #2EC8E8;
     padding: 10px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+p {
+    font-size: 20px;
+    font-family: Georgia, serif;
 }
 h3 {
     font-family: verdana, sans-serif;
     font-size: 35px;
     font-weight: 400;
     background-color: #40ACFF;
+    text-align: center;
 }
-.card1 {
+.cardLeft {
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 50%;
+    font-family: verdana, sans-serif;
+    font-size: 20px;
 }
-.card1:hover {
+.cardLeft:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 h4 {
     font-family: verdana, sans-serif;
-    font-size: 35px;
+    font-size: 27px;
     font-weight: 400;
-    background-color: #2E67E8;
+    color: #2E67E8;
 }
-.card2 {
+.cardRight {
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 50%;
     float: right;
+    font-family: verdana, sans-serif;
+    font-size: 20px;
 }
-.card2:hover {
+.cardRight:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-p {
-    font-family: Georgia, serif;
-    font-size: 20px;
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #2E67E8;
+  text-decoration: underline;
+}
+a:visited {
+  color: #2E67E8;
+  font-style: italic;
+  text-decoration: none;
+}
+figure {
+  padding: 5px;
+}
+figcaption {
+    font-size: 12px;
+    text-align: left;
+}
+footer {
+    background-color: #40ACFF;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    padding-right: 10px;
+    left: 0;
 }
