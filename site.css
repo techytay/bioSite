@@ -35,14 +35,14 @@ h1 {
 #navbar a.current {
   border: 3px solid #33FFEB;
 }
-#container {
-  width: 50%;
-  float: right;
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 50px;
+  margin-top: 2%;
 }
-figure {
-  padding: 5px;
-  border: 2px solid #2EC8E8;
-  text-align: center;
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
 }
 h2 {
   font-family: verdana, sans-serif;
@@ -77,10 +77,6 @@ ul {
   font-family: Georgia, serif;
   font-size: 20px;
   margin-bottom: 3%;
-}
-aside {
-  width: 50%;
-  float: left;
 }
 table, th, td {
     border: 1px solid black;
