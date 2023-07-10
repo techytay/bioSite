@@ -36,12 +36,10 @@ h1 {
 }
 h2 {
     font-family: verdana, sans-serif;
-    text-align: left;
+    text-align: center;
     font-size: 45px;
-    font-weight: 400;
-    background-color: #333BFF;
-    color: black;
-    border: 1px solid #2EC8E8;
+    font-weight: bold;
+    color: #073763;
     padding: 10px;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -67,7 +65,7 @@ h3 {
 }
 h4 {
     font-family: verdana, sans-serif;
-    text-align: left;
+    text-align: center;
     font-size: 27px;
     font-weight: 400;
     color: #2E67E8;
